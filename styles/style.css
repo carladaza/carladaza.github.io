@@ -1,0 +1,27 @@
+
+body {
+  background-color: #BBBB91;
+}
+
+h1 {
+  color: #431519;
+}
+
+p {
+  color: #431519;
+}
+
+.image-feed {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.image-feed img {
+  width: 40%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}

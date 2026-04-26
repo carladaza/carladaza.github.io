@@ -1,0 +1,21 @@
+[project]
+name = "carladaza-github-io"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.9.4",
+    "networkx>=3.2.1",
+    "numpy>=2.0.2",
+    "pandas>=2.0.3",
+    "requests>=2.32.5",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+]
+
+[tool.uv]
+required-environments = [
+    "sys_platform == 'darwin' and platform_machine == 'x86_64'"
+]
