@@ -1,6 +1,8 @@
 # Data
 *.json
-photos/
+*.db
+*.ipynb
+pytorch/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
